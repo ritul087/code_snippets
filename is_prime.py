@@ -1,4 +1,4 @@
-def primes_list_buggy(n):
+def primes_list(n):
     """
     input: n an integer > 1
     returns: list of all the primes up to and including n
@@ -24,4 +24,4 @@ def primes_list_buggy(n):
     print("total no of prime nos. upto "+str(n)+" = "+str(count))
     return primes
 
-print(primes_list_buggy(100))
+print(primes_list(100))
